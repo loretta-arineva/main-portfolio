@@ -1,6 +1,7 @@
 import React from 'react';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faLinkedin, faDiscord} from '@fortawesome/free-brands-svg-icons';
+
 const FooterContact = () => {
     return (
         <div className="footer-contact">
