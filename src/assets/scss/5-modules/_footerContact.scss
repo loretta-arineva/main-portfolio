@@ -1,0 +1,29 @@
+.footer-contact {
+    .footer-message {
+        .contact-link {
+            color     : $contactLink;
+            font-style: italic;
+        }
+    }
+
+    .social {
+        margin: 15px 0 10px;
+        p {
+            font-family: 'Montserrat', 'Courier New', Courier, monospace;
+            font-size: 14px;
+            font-style: italic;
+        }
+
+        .social-icons {
+            margin: 10px 0;
+            color: $socialIcons;
+            font-size: 25px;
+
+            :first-child {
+                margin-right: 15px;
+                // Aligning icons
+                margin-bottom: 2px;
+            }
+        }
+    }
+}

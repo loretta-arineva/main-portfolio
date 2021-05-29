@@ -9,7 +9,7 @@ const Afterword = () => {
                 </div>
                 <div className="thanks">
                     <p>Thanks for scrolling all this way!</p>
-                    <p className="signature">Loreta Krasteva</p>
+                    <p className="signature">l.krasteva</p>
                 </div>
             </div>
         </div>
