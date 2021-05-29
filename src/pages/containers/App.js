@@ -10,24 +10,25 @@ import '../../assets/scss/main.scss';
 import HeaderNav from '../components/HeaderComponents/HeaderNav/RightNav/HeaderNav';
 import ProgressBar from '../components/HeaderComponents/HeaderNav/ProgressBar/ProgressBar';
 import Hero from './Hero';
+import About from './About';
+import Contact from './Contact';
 import Footer from './Footer';
 
 function App() {
   return (
     <Router>
       <Header />
-      <HeaderNav/>
+      <HeaderNav />
       <ProgressBar />
-      <Hero />
       <Switch>
         <Route path="/about">
-          {/* <About /> */}
+          <About />
         </Route>
-        <Route path="/topics">
-          {/* <Topics /> */}
+        <Route path="/contact">
+          <Contact />
         </Route>
         <Route path="/">
-          {/* <Home /> */}
+          <Hero />
         </Route>
       </Switch>
       <Footer />
