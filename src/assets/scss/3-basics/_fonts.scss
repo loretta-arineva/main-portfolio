@@ -125,3 +125,26 @@
     font-weight: 300;
     font-style : normal;
 }
+
+
+// SACRAMENTO
+
+@font-face {
+    font-family: 'Sacramento';
+    src        : url('../../fonts/sacramento/sacramento-regular-webfont.woff2') format('woff2'),
+        url('../../fonts//sacramento/sacramento-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style : normal;
+
+}
+
+// MONTSERRAT
+
+@font-face {
+    font-family: 'Montserrat';
+    src        : url('../../fonts/montserrat/montserrat-lightitalic-webfont.woff2') format('woff2'),
+        url('../../fonts/montserrat/montserrat-lightitalic-webfont.woff') format('woff');
+    font-weight: 300;
+    font-style : italic;
+
+}

@@ -11,12 +11,16 @@
 
         .thanks {
             width: 50%;
-
+            
+            
             p:first-child {
-                color: red;
+                font-family: 'Montserrat', 'Courier New', Courier, monospace;
+                font-size: 12px;
             }
 
-            .signature {}
+            .signature {
+                font-family: 'Sacramento', 'Courier New', Courier, monospace;
+            }
         }
     }
 }

@@ -3,9 +3,9 @@
 
 
 @font-face {
-    font-family: 'montserrat_alternatesXLtIt';
-    src: url('montserratalternates-extralightitalic-webfont.woff2') format('woff2'),
-         url('montserratalternates-extralightitalic-webfont.woff') format('woff');
+    font-family: 'montserratlight_italic';
+    src: url('montserrat-lightitalic-webfont.woff2') format('woff2'),
+         url('montserrat-lightitalic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
