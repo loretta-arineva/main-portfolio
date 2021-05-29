@@ -1,0 +1,22 @@
+.afterword {
+    .afterword-wrapper {
+        @include flexItem(flex-start, center, row);
+
+        .footer-logo {
+            background-color: white;
+            border-radius   : 50%;
+            height          : 75px;
+            width           : 75px;
+        }
+
+        .thanks {
+            width: 50%;
+
+            p:first-child {
+                color: red;
+            }
+
+            .signature {}
+        }
+    }
+}

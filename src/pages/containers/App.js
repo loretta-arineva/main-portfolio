@@ -10,6 +10,7 @@ import '../../assets/scss/main.scss';
 import HeaderNav from '../components/HeaderComponents/HeaderNav/RightNav/HeaderNav';
 import ProgressBar from '../components/HeaderComponents/HeaderNav/ProgressBar/ProgressBar';
 import Hero from './Hero';
+import Footer from './Footer';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
           {/* <Home /> */}
         </Route>
       </Switch>
+      <Footer />
     </Router>
   );
 }

@@ -12,6 +12,7 @@
 // 3 - BASICS
 @import '3-basics/_links';
 @import '3-basics/_typography';
+@import '3-basics/_fonts';
 
 // 4 - LAYOUT
 @import '4-layout/_pageLayout';
@@ -19,6 +20,10 @@
 @import '5-modules/_mainNav';
 @import '5-modules/_progressBar';
 @import '5-modules/_heroTitle';
+@import '5-modules/_projectCard';
+@import '5-modules/_smallFooter';
+@import '5-modules/_afterword';
+@import '5-modules/_footerContact';
 
 //  6 - PAGES
 @import '6-pages/_header';

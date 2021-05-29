@@ -1,7 +1,7 @@
 import React from 'react'
 import Title from '../components/HeroComponents/HeroTitle';
 import Description from '../components/HeroComponents/HeroDescription';
-import Button from '../components/multifunctional/ArrowButton';
+import Projects from '../components/HeroComponents/Work/ProjectCard';
 
 const Hero = () => {
     return (
@@ -9,6 +9,7 @@ const Hero = () => {
             <div className="hero-content-wrapper">
                 <Title/>
                 <Description></Description>
+                <Projects></Projects>
             </div>
         </section>
     )

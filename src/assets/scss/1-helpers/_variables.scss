@@ -2,7 +2,11 @@
 
 // header
 // progress bar
-$progBarContainer: rgba(31, 31, 31, 0.2);
-$progressBar: #1f1f1f; 
+$progBarContainer: rgba(31, 31, 31, 0.2); // color for the main progress line
+$progressBar: #1f1f1f; // color for the progress line
 
 // main navigation
+// projects
+$projectImage: rgba(0, 0, 0, 0.1); // light box shadow color 
+$projectFigureBg: yellow; // light box shadow color 
+$projectFigureHover: rgb(225, 110, 65); // light box shadow color 
