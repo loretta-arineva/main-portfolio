@@ -5,5 +5,14 @@
     -webkit-justify-content: $horizontal;
     align-items            : $vertical;
     -webkit-align-items    : $vertical;
-    flex-direction: $direction;
+    flex-direction         : $direction;
+}
+
+
+@mixin rotateLetter($rad, $left, $right) {
+    transform: rotate($rad);
+    // width    : 21px;
+    // height   : 24px;
+    left     : $left;
+    top      : $right;
 }

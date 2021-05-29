@@ -1,12 +1,20 @@
 .main-navigation {
-    transform: rotate(-90deg);
-    position: absolute;
-    width: 250px;
-    height: 20px;
-    top: 45%;
-    right: -105px;
+    transform : rotate(-90deg);
+    position  : fixed;
+    width     : 250px;
+    height    : 20px;
+    top       : 59%;
+    right     : -105px;
     box-sizing: border-box;
+
     ul {
         @include flexItem(center, center, row);
+        text-transform: uppercase;
+        font-family   : 'Visia Pro', sans-serif;
+        font-weight   : 700;
+
+        li {
+            margin-right: 35px;
+        }
     }
 }

@@ -1,23 +1,18 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPlay } from '@fortawesome/free-solid-svg-icons';
 
 const GameSwitch = () => {
     return (
         <div className="game-switch--container">
-            <div className="game--btn-text">
-                <span className="l1">P</span>
-                <span className="l2">L</span>
-                <span className="l3">A</span>
-                <span className="l4">Y</span>
-                <span className="l5"></span>
-                <span className="l6">G</span>
-                <span className="l7">A</span>
-                <span className="l8">M</span>
-                <span className="l9">E</span>
+            <div className="ct">
+
+            <div id='warped'>
+                <span className='w0'>P</span><span className='w1'>L</span><span className='w2'>A</span><span className='w3'>Y</span><span className='w4'> </span><span className='w5'>G</span><span className='w6'>A</span><span className='w7'>M</span><span className='w8'>E</span>
+            </div>
             </div>
             <div className="play-btn">
-                <FontAwesomeIcon icon={faPlay}/>
+                <FontAwesomeIcon icon={faPlay} />
             </div>
         </div>
     )
