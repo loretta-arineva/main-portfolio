@@ -1,0 +1,12 @@
+.main-navigation {
+    transform: rotate(-90deg);
+    position: absolute;
+    width: 250px;
+    height: 40px;
+    top: 45%;
+    right: -105px;
+    box-sizing: border-box;
+    ul {
+        @include flexItem(center, center, row);
+    }
+}

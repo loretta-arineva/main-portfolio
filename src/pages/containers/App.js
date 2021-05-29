@@ -1,4 +1,3 @@
-import './App.css';
 import {
   BrowserRouter as Router,
   Switch,
@@ -6,22 +5,30 @@ import {
   Link
 } from "react-router-dom";
 
+import Header from './Header';
+import '../../assets/scss/main.scss';
+import HeaderNav from '../components/HeaderComponents/HeaderNav/RightNav/HeaderNav';
+import ProgressBar from '../components/HeaderComponents/HeaderNav/ProgressBar/ProgressBar';
+import Hero from './Hero';
+
 function App() {
   return (
     <Router>
-      <div className="App">
-        <Switch>
-          <Route path="/about">
-            {/* <About /> */}
-          </Route>
-          <Route path="/topics">
-            {/* <Topics /> */}
-          </Route>
-          <Route path="/">
-            {/* <Home /> */}
-          </Route>
-        </Switch>
-      </div>
+      <Header />
+      <HeaderNav/>
+      <ProgressBar />
+      <Hero />
+      <Switch>
+        <Route path="/about">
+          {/* <About /> */}
+        </Route>
+        <Route path="/topics">
+          {/* <Topics /> */}
+        </Route>
+        <Route path="/">
+          {/* <Home /> */}
+        </Route>
+      </Switch>
     </Router>
   );
 }

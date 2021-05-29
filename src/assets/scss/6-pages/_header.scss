@@ -1,0 +1,4 @@
+header {
+    @include flexItem(space-between, center, row);
+    box-sizing: border-box;
+}

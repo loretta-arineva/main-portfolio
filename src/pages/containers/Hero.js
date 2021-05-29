@@ -7,9 +7,8 @@ const Hero = () => {
     return (
         <section id="hero">
             <div className="hero-content-wrapper">
-                <Title></Title>
+                <Title/>
                 <Description></Description>
-                <Button>Discover</Button>
             </div>
         </section>
     )

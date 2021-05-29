@@ -1,12 +1,11 @@
 import React from 'react';
-import logo from '../../../../assets/images/figaro-logo.svg';
 
 const Logo = () => {
     return (
-        <div className="site-logo">
+        <div className="logo-container">
             <p>Loreta Krasteva</p>
         </div>
     )
 }
 
-export default Logo
+export default Logo;

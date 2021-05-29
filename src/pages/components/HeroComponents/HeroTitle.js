@@ -1,9 +1,11 @@
-import React from 'react'
+import React from 'react';
 
 const HeroTitle = () => {
     return (
-        <h1>We don't cut, we style</h1>
+        <div className="hero-title">
+            <h1><span>Web</span> <span>Developer +</span> <span></span> <span>Computer</span> <span>Technician</span></h1>
+        </div>
     )
 }
 
-export default HeroTitle
+export default HeroTitle;

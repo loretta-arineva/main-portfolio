@@ -1,14 +1,17 @@
-import React from 'react'
-import TopNavigation from '../components/HeaderComponents/HeaderNav/TopNav';
-import MainMenu from '../components/HeaderComponents/HeaderNav/HeaderNav';
-import Hamburger from '../components/HeaderComponents/HamburgerComponent/Hamburger';
+import React from 'react';
+import Logo from '../components/multifunctional/Logo';
+import ThemeColorSwitch from '../components/HeaderComponents/TopNav/ThemeColorSwitch';
+import GameSwitch from '../components/HeaderComponents/TopNav/GameSwitch';
 
 const Header = () => {
     return (
+        // Website top header
         <header>
             <Logo />
+            <ThemeColorSwitch />
+            <GameSwitch />
         </header>
     )
 }
 
-export default Header
+export default Header;
