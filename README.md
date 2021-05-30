@@ -23,9 +23,10 @@ Adding styles for larger devices and working on contact page.
 4. Adding item entrance animations.
 5. Adding a progress bar functionality.
 6. Adding another theme color to the entire website.
-7. Adding an arcade game.
-8. Improving on-site and technical SEO.
-9. Refactoring code.
+7. Improving on-site and technical SEO.
+8. Implementing a better git flow method for updating content and developing a game.
+9. Adding an arcade game.
+10. Refactoring code.
 
 
 ## Project Screen Shots
