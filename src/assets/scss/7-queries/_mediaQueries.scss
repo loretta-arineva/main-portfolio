@@ -1,3 +1,16 @@
+// HEADER
+
+@media screen and (min-width: 860px) {
+    header {
+        .color-switch--container {
+            padding: 15px;
+            svg {
+                font-size: 16px;
+            }
+        }
+    }
+}
+
 @media screen and (min-width: 480px) {
     h1 {
         font-size: 58px;
@@ -104,7 +117,7 @@
 
             .project-description {
                 position        : absolute;
-                right           : 0;
+                right           : 10vw;
                 max-width       : 300px;
                 background-color: rgba(255, 255, 255, 0.247);
                 border-radius   : 10px;

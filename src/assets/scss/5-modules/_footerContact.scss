@@ -1,6 +1,7 @@
 .footer-contact {
     .footer-message {
         max-width: 300px;
+
         .contact-link {
             color     : $contactLink;
             font-style: italic;
@@ -9,21 +10,27 @@
 
     .social {
         margin: 15px 0 10px;
+
         p {
             font-family: 'Montserrat', 'Courier New', Courier, monospace;
-            font-size: 14px;
-            font-style: italic;
+            font-size  : 14px;
+            font-style : italic;
         }
 
         .social-icons {
-            margin: 10px 0;
-            color: $socialIcons;
+            margin   : 10px 0;
+            color    : $socialIcons;
             font-size: 25px;
 
-            :first-child {
+            a:not(:last-of-type) {
                 margin-right: 15px;
-                // Aligning icons
-                margin-bottom: 2px;
+            }
+
+            a:first-of-type {
+                svg {
+                    // Aligning icons
+                    margin-bottom: 2px;
+                }
             }
         }
     }
