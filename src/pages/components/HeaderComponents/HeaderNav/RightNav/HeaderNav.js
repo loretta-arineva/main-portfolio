@@ -5,10 +5,10 @@ import ListItem from '../../../multifunctional/Navigation/NavListItem';
 const HeaderNav = () => {
     return (
         <Navigation classList="main-navigation">
-            <ListItem linkUrl="#page-top">Contact</ListItem>
-            <ListItem linkUrl="#page-top">About</ListItem>
-            <ListItem linkUrl="#page-top">Work</ListItem>
-            <ListItem linkUrl="#hero">Home</ListItem>
+            <ListItem linkUrl="/contact">Contact</ListItem>
+            <ListItem linkUrl="/about">About</ListItem>
+            <ListItem linkUrl="/">Work</ListItem>
+            <ListItem linkUrl="/">Home</ListItem>
         </Navigation>
     )
 }

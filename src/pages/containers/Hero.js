@@ -11,7 +11,7 @@ const Hero = () => {
                 <Title/>
                 <Description></Description>
                 <Projects></Projects>
-                <NextPage sub="Learn more">About</NextPage>
+                <NextPage sub="Learn more" linkUrl="/about">About</NextPage>
             </div>
         </section>
     )

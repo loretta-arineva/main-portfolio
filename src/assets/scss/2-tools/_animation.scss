@@ -140,3 +140,36 @@ h1 {
         transform        : rotate(360deg);
     }
 }
+
+// Project animation
+
+
+.isVisible {
+    -webkit-animation: fade-in 1.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation        : fade-in 1.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+/**
+ * ----------------------------------------
+ * animation fade-in
+ * ----------------------------------------
+ */
+@-webkit-keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
