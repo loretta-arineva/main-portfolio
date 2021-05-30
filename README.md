@@ -1,23 +1,78 @@
+# LK Portfolio
+
+#### Note:
+
+This project is currently in development.
+
+#### Description:
+
+See live:
+[Portfolio](https://loretta-arineva.dev) 
+
+My personal portfolio website, built with React, JavaScript/JSX, and SCSS.
+
+## Project Status
+
+### Current
+Adding styles for larger devices and working on contact page.
+
+### Next steps:
+1. Adding a contact form.
+2. Adding About me content.
+3. Adding entrance and exit component animations.
+4. Adding item entrance animations.
+5. Adding a progress bar functionality.
+6. Adding another theme color to the entire website.
+7. Adding an arcade game.
+8. Improving on-site and technical SEO.
+9. Refactoring code.
+
+
+## Project Screen Shots
+
+#### Preview:   
+
+N/A
+
+See live:
+[Portfolio](https://loretta-arineva.dev) 
+
+
+## Installation and Setup Instructions
+
+#### Example:  
+
+Clone down this repository. You will need `node` and `npm` installed globally on your machine.  
+
+Installation:
+
+`npm install`  
+
+To Start Server:
+
+`npm start`  
+
+To Visit App:
+
+`localhost:3000`  
+
+## Reflection
+
+  - This is the main project that I am working on that is helping me cement my skills.
+  - P.S I love building this!
+  - So far I have not encountered any huge issues or challenges. It took some time to figure out how to warp text around an object though, sheesh...
+  - Tools used:
+      - I love using both React and SASS. They make everything so much easier to structure, organize, refactor, troubleshoot and generally work with. The combination saves you a lot of time. 
+
+#### Goals:  
+
+I have spent a total of 21 hours building this project.
+
+One of the goals for this website is to implement an arcade game which I am absolutely looking forward to. I also want to implement some features with particleJS and add some animated carachters.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
@@ -29,42 +84,7 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## License
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Author
+> Loreta Krasteva
