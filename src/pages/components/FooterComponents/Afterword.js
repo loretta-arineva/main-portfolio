@@ -8,7 +8,7 @@ const Afterword = () => {
                     <img src={bird} alt="" />
                 </div>
                 <div className="thanks">
-                    <p>Thanks for scrolling all this way!</p>
+                    <p>Thank you for scrolling all this way!</p>
                     <p className="signature">l.krasteva</p>
                 </div>
             </div>
