@@ -1,0 +1,183 @@
+@media screen and (min-width: 480px) {
+    h1 {
+        font-size: 58px;
+    }
+
+    section {
+        margin-top: 155px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    .progress-bar--container {
+        left: -95px;
+    }
+
+    .main-navigation {
+        right: -95px;
+    }
+
+    #hero {
+        .project {
+
+            .project-description {
+
+                .project-title {
+                    font-size  : 50px;
+                    width      : 80%;
+                    text-shadow: 1px 1px rgb(233, 207, 94);
+                    line-height: 1.1;
+                }
+
+                .project-type {
+                    font-size: 20px;
+                    margin   : 20px 0 15px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 560px) {
+    h1 {
+        font-size: 70px;
+
+        span {
+            line-height: 70px;
+        }
+    }
+
+    .main-navigation li {
+        font-size: 18px;
+    }
+
+    #hero {
+        .project {
+
+            .project-description {
+
+                .project-type {
+                    font-size: 22px;
+                }
+
+                .project-stack {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 650px) {
+    #hero {
+        .hero-description {
+            width: 80%;
+        }
+    }
+}
+
+@media screen and (min-width: 990px) {
+    h1 {
+        font-size: 105px;
+
+        span {
+            line-height: 1;
+        }
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    .main-navigation li {
+        font-size: 20px;
+    }
+
+    #hero {
+        .project {
+            position: relative;
+            @include flexItem(center, center, row);
+            padding-right: 30%;
+            box-sizing   : border-box;
+
+            .project-description {
+                position        : absolute;
+                right           : 0;
+                max-width       : 300px;
+                background-color: rgba(255, 255, 255, 0.247);
+                border-radius   : 10px;
+                padding         : 25px;
+
+                .project-title {
+                    margin   : 0;
+                    font-size: 50px;
+                    width    : 100%;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1100px) {
+    h1 {
+        font-size: 125px;
+        height   : 80vh;
+    }
+
+    #hero {
+        .hero-description {
+            width: 80%;
+        }
+
+        .project {
+            .project-description {
+
+                .project-type {
+                    font-size: 22px;
+                }
+
+                .project-stack {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (min-width: 1420px) {
+    h1 {
+        font-size: 155px;
+    }
+
+    #hero {
+
+        .project {}
+    }
+}
+
+@media screen and (min-width: 1820px) {
+    h1 {
+        font-size: 175px;
+
+
+    }
+
+    p {
+        font-size: 25px;
+    }
+
+    .main-navigation li {
+        font-size: 24px;
+    }
+
+    #hero {
+        .hero-description {
+            width: 80%;
+        }
+
+        .project {}
+    }
+}
