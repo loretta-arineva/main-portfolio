@@ -24,6 +24,9 @@ Adding styles for larger devices and working on contact page.
 5. Adding a progress bar functionality.
 6. Adding another theme color to the entire website.
 7. Improving on-site and technical SEO.
+  1. Adding lazy loading.
+  2. Improving GT Metrix stats.
+  3. Configuring metas for social meadia.
 8. Implementing a better git flow method for updating content and developing a game.
 9. Adding an arcade game.
 10. Refactoring code.
