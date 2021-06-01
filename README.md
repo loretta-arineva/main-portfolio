@@ -17,7 +17,7 @@ My personal portfolio website, built with React, JavaScript/JSX, and SCSS.
 Adding styles for larger devices and working on contact page.
 
 ### Next steps:
-1. Adding a contact form.
+1. ~~Adding a contact form.~~
 2. Adding About me content.
 3. Adding entrance and exit component animations.
 4. Adding item entrance animations.
@@ -67,7 +67,7 @@ To Visit App:
 
 #### Goals:  
 
-I have spent a total of 21 hours building this project.
+I have spent a total of 29 hours building this project.
 
 One of the goals for this website is to implement an arcade game which I am absolutely looking forward to. I also want to implement some features with particleJS and add some animated carachters.
 
