@@ -17,19 +17,19 @@ My personal portfolio website, built with React, JavaScript/JSX, and SCSS.
 Adding styles for larger devices and working on contact page.
 
 ### Next steps:
-1. ~~Adding a contact form.~~
-2. Adding About me content.
-3. Adding entrance and exit component animations.
-4. Adding item entrance animations.
-5. Adding a progress bar functionality.
-6. Adding another theme color to the entire website.
-7. Improving on-site and technical SEO.
-  1. Adding lazy loading.
-  2. Improving GT Metrix stats.
-  3. Configuring metas for social meadia.
-8. Implementing a better git flow method for updating content and developing a game.
-9. Adding an arcade game.
-10. Refactoring code.
+- [x] ~~Adding a contact form.~~
+- [ ] Adding About me content.
+- [ ] Adding entrance and exit component animations.
+- [ ] Adding item entrance animations.
+- [ ] Adding a progress bar functionality.
+- [ ] Adding another theme color to the entire website.
+- [ ] Improving on-site and technical SEO.
+  - [ ] Adding lazy loading.
+  - Improving GT Metrix stats.
+  - Configuring metas for social meadia.
+- [ ] Implementing a better git flow method for updating content and developing a game.
+- [ ] Adding an arcade game.
+- [ ] Refactoring code.
 
 
 ## Project Screen Shots
