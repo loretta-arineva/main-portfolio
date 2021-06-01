@@ -25,8 +25,8 @@ Adding styles for larger devices and working on contact page.
 - [ ] Adding another theme color to the entire website.
 - [ ] Improving on-site and technical SEO.
   - [ ] Adding lazy loading.
-  - Improving GT Metrix stats.
-  - Configuring metas for social meadia.
+  - [ ] Improving GT Metrix stats.
+  - [ ] Configuring metas for social meadia.
 - [ ] Implementing a better git flow method for updating content and developing a game.
 - [ ] Adding an arcade game.
 - [ ] Refactoring code.
