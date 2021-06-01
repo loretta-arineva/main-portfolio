@@ -17,6 +17,7 @@ const ContactForm = () => {
             <input type="text" maxlength="256" placeholder="Your Full Name" id="full-name" name="name" required ref={nameRef}  />
             <input type="email" maxlength="256" placeholder="Your Email" id="email" required name="email" ref={emailRef} />
             <textarea name="" id="" cols="20" rows="10" maxlength="5000" placeholder="Your Message..." required name="text" ref={messageRef} ></textarea>
+            {/* Spam prevention */}
             <input name="_formsubmit_id" type="text" style={{display: "none"}}></input>
             <input type="submit" value="Submit" className="form-submit__btn" />
         </form>
