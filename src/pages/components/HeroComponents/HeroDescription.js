@@ -3,7 +3,7 @@ import React from 'react'
 const HeroDescription = () => {
     return (
         <div className="hero-description">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare.</p>
+            <p>All of my projects are available on my GitHub, link can be found in footer. I will soon link all of the projects here, please bear with me.</p>
         </div>
     )
 }
