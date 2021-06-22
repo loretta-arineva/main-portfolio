@@ -1,6 +1,6 @@
 .project {
-    margin-bottom: 80px;
-    width        : 100%;
+    width : 100%;
+    margin: 35px 0 90px;
 
     h2 {
         margin: 25px 0 5px;
@@ -8,7 +8,6 @@
 
     figure {
         box-shadow      : -3px 9px 20px 2px $projectImage;
-        margin          : 35px 0 10px;
         background-color: $projectFigureBg;
 
 
@@ -27,6 +26,13 @@
             }
         }
 
+    }
+
+    .project-description {
+        .project-title {
+            text-shadow: 1px 1px rgb(233, 207, 94);
+
+        }
     }
 
     .project-stack {
