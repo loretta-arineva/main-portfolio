@@ -1,19 +1,28 @@
 export const projectData = [
     {
         img: "/images/projects/audiophile-e-commerce.jpg",
+        alt: "One of my favorite projects! Planets fact is a cute place where you can see some information about the planets in our solar system.",
+        title: "Planets Fact",
+        type: "Front-End",
+        stack: "React, JavaScript, SCSS",
+        github: "https://github.com/loretta-arineva/planets-fact",
+        live: "https://planets-fact-react.netlify.app/"
+    },
+    {
+        img: "/images/projects/rest-countries-api.jpg",
+        alt: "Where in the world is a website packed with information about all countries in the world.",
+        title: "Where in the world",
+        type: "Front-End",
+        stack: "React, Redux Toolkit, JavaScript, API, SCSS",
+        github: "https://github.com/loretta-arineva/rest-countries-api",
+        live: "https://forkify-web-app.netlify.app/#5ed6604591c37cdc054bcd45"
+    },
+    {
+        img: "/images/projects/audiophile-e-commerce.jpg",
         alt: "Audiophile. An e-commerce website for music enthusiasts.",
         title: "Audiophile e-commerce",
         type: "Front-End",
         stack: "React, Redux Toolkit, JavaScript, SCSS",
-        github: "https://github.com/loretta-arineva/audiophile-ecommerce",
-        live: "https://audiophile-ecommerce.netlify.app/"
-    },
-    {
-        img: "/images/projects/rest-countries-api.jpg",
-        alt: "Rest Countries API is a website packed with information about all countries in the world.",
-        title: "Rest Countries API",
-        type: "Front-End",
-        stack: "React, Redux Toolkit, JavaScript, API, SCSS",
         github: "https://github.com/loretta-arineva/audiophile-ecommerce",
         live: "https://audiophile-ecommerce.netlify.app/"
     },
@@ -23,7 +32,7 @@ export const projectData = [
         title: "Forkify",
         type: "Front-End",
         stack: "JavaScript, API, CSS, HTML",
-        github: "https://github.com/loretta-arineva/audiophile-ecommerce",
+        github: "https://github.com/loretta-arineva/Forkify",
         live: "https://audiophile-ecommerce.netlify.app/"
     },
     {
@@ -32,8 +41,8 @@ export const projectData = [
         title: "Guess The Number",
         type: "Front-End",
         stack: "JavaScript, HTML, CSS",
-        github: "https://github.com/loretta-arineva/audiophile-ecommerce",
-        live: "https://audiophile-ecommerce.netlify.app/"
+        github: "https://github.com/loretta-arineva/guess-the-number",
+        live: "https://loretta-arineva.github.io/guess-the-number/"
     },
     {
         img: "/images/projects/figaro.png",
@@ -41,24 +50,26 @@ export const projectData = [
         title: "Figaro",
         type: "Front-End",
         stack: "JavaScript, HTML, CSS",
-        github: "https://github.com/loretta-arineva/audiophile-ecommerce",
-        live: "https://audiophile-ecommerce.netlify.app/"
+        github: "https://github.com/loretta-arineva/Figaro",
+        live: "https://loretta-arineva.github.io/Figaro/"
     },
     {
         img: "/images/projects/pig-game.png",
         alt: "Who can reach 100 first? Play with a friend!",
         title: "Pig Game",
         type: "Front-End",
-        stack: "JavaScript, HTML, CSS",
+        stack: "JavaScript, HTML, CSS, MVC",
+        github: "https://github.com/loretta-arineva/pig-game",
+        live: "https://dice-pig-game-mvc.netlify.app/"
     },
     {
         img: "/images/projects/old_portfolio.png",
         alt: "My old portfolio.",
-        title: "Old Portfolio v1",
+        title: "Old Portfolio v2",
         type: "Front-End",
         stack: "JavaScript, HTML, CSS",
-        github: "https://github.com/loretta-arineva/audiophile-ecommerce",
-        live: "https://audiophile-ecommerce.netlify.app/"
+        github: "https://github.com/loretta-arineva/portfolio-v2",
+        live: "https://loreta-krasteva-portfolio.netlify.app/"
     },
     {
         img: "/images/projects/wolf-hunt.png",
@@ -66,7 +77,7 @@ export const projectData = [
         title: "Wolf Hunt",
         type: "Front-End",
         stack: "JavaScript, HTML, CSS",
-        github: "https://github.com/loretta-arineva/audiophile-ecommerce",
-        live: "https://audiophile-ecommerce.netlify.app/"
+        github: "https://github.com/loretta-arineva/wolf-hunt",
+        live: "https://loretta-arineva.github.io/wolf-hunt/"
     },
 ];
