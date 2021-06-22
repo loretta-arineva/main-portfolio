@@ -42,12 +42,14 @@ const ProjectCard = () => {
                 <div className="project" key={key}>
                     <div className="project-image__container">
                         <div className="github-ribbon">
-                            <a href="http://" target="_blank" rel="noopener noreferrer">
+                            <a href={project.github} target="_blank" rel="noopener noreferrer">
                                 <FontAwesomeIcon icon={faGithub} />
                             </a>
                         </div>
                         <figure>
-                            <img className="project-image" src={project.img} alt={project.alt} />
+                            <a href={project.live} target="_blank" rel="noopener noreferrer">
+                                <img className="project-image" src={project.img} alt={project.alt} />
+                            </a>
                         </figure>
                     </div>
                     <div className="project-description">
