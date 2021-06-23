@@ -15,7 +15,7 @@ export const projectData = [
         type: "Front-End",
         stack: "React, Redux Toolkit, JavaScript, API, SCSS",
         github: "https://github.com/loretta-arineva/rest-countries-api",
-        live: "https://forkify-web-app.netlify.app/#5ed6604591c37cdc054bcd45"
+        live: "https://rest-countries-api-react-redux.netlify.app/"
     },
     {
         img: "/images/projects/audiophile-e-commerce.jpg",
@@ -33,7 +33,7 @@ export const projectData = [
         type: "Front-End",
         stack: "JavaScript, API, CSS, HTML",
         github: "https://github.com/loretta-arineva/Forkify",
-        live: "https://audiophile-ecommerce.netlify.app/"
+        live: "https://forkify-web-app.netlify.app/#5ed6604591c37cdc054bcd45"
     },
     {
         img: "/images/projects/guess-the-number.png",
