@@ -91,6 +91,25 @@
     }
 }
 
+@media screen and (max-width: 675px) {
+    .project {
+        .github-ribbon {
+            height: 70px;
+            font-size: 35px;
+        }
+    }
+}
+
+@media screen and (max-width: 510px) {
+    .project {
+        .github-ribbon {
+            height: 50px;
+            right: -80px;
+            font-size: 30px;
+        }
+    }
+}
+
 @media screen and (min-width: 990px) {
     h1 {
         font-size: 105px;
@@ -165,10 +184,6 @@
         font-size: 155px;
     }
 
-    #hero {
-
-        .project {}
-    }
 }
 
 @media screen and (max-width: 1550px) {
