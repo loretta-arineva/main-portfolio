@@ -1,6 +1,6 @@
 export const projectData = [
     {
-        img: "/images/projects/audiophile-e-commerce.jpg",
+        img: "/images/projects/planets-fact.jpg",
         alt: "One of my favorite projects! Planets fact is a cute place where you can see some information about the planets in our solar system.",
         title: "Planets Fact",
         type: "Front-End",
