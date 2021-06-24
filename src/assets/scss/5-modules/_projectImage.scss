@@ -4,8 +4,7 @@
         background-color: $primaryColor;
         background-color: white;
         min-height   : 300px;
-        @include flexItem(center, center, row);
-
+        text-align: center;
         .project-image {
             width              : 100%;
             background-position: 50% 20%;
