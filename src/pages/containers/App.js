@@ -43,15 +43,21 @@ function App() {
         <HeaderNav />
         <ProgressBar scroll={scroll} />
         <Switch>
+          <Route path="/" exact>
+            <Hero />
+          </Route>
+
           <Route path="/about">
             <About />
           </Route>
+
           <Route path="/contact">
             <Contact />
           </Route>
+
           <Route path="/">
-            <Hero />
           </Route>
+
         </Switch>
         <Footer />
       </Router>
