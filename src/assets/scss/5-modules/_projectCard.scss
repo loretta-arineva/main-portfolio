@@ -6,28 +6,6 @@
         margin: 25px 0 5px;
     }
 
-    figure {
-        box-shadow      : -3px 9px 20px 2px $projectImage;
-        background-color: $projectFigureBg;
-
-
-        .project-image {
-            width              : 100%;
-            background-position: 50% 20%;
-            background-size    : cover;
-            filter             : grayscale(100%);
-        }
-
-        &:hover {
-            background-color: $projectFigureHover;
-
-            .project-image {
-                filter: grayscale(0%);
-            }
-        }
-
-    }
-
     .project-description {
         .project-title {
             text-shadow: 1px 1px rgb(233, 207, 94);

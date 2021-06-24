@@ -4,6 +4,8 @@ import { projectData } from '../../../../assets/data/projects';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
+import Image from './ProjectImage';
+
 const ProjectCard = () => {
     const options = {
         root: null, // use the document's viewport as the container
@@ -17,11 +19,11 @@ const ProjectCard = () => {
             // If entry (project) is visible - according with the params set in `options`
             // then adds `isVisible` class to project
             // otherwise removes `isVisible` class
-            if (entry.isIntersecting) {
-                entry.target.classList.add('isVisible');
-            } else {
-                entry.target.classList.remove('isVisible');
-            }
+            // if (entry.isIntersecting) {
+            //     entry.target.classList.add('isVisible');
+            // } else {
+            //     entry.target.classList.remove('isVisible');
+            // }
 
         });
     }
@@ -33,7 +35,7 @@ const ProjectCard = () => {
     useEffect(() => {
         // Get all the `.project` from DOM and attach the observer to these
         document.querySelectorAll('.project')
-            .forEach(project => { observer.observe(project) });
+            .forEach(project => observer.observe(project));
     })
 
     return (
@@ -46,11 +48,7 @@ const ProjectCard = () => {
                                 <FontAwesomeIcon icon={faGithub} />
                             </a>
                         </div>
-                        <figure>
-                            <a href={project.live} target="_blank" rel="noopener noreferrer">
-                                <img className="project-image" src={project.img} alt={project.alt} />
-                            </a>
-                        </figure>
+                        <Image project={project} />
                     </div>
                     <div className="project-description">
                         <h2 className="project-title">{project.title}</h2>
