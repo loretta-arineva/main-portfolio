@@ -1,18 +1,20 @@
-.progress-bar--container {
+.progress-bar__container {
     position           : fixed;
     top                : 50%;
     left               : -105px;
     width              : 250px;
-    height             : 1px;
-    border-top         : 1px solid $progBarContainer;
+    height             : 2px;
+    // border-top         : 1px solid $progBarContainer;
+    background-color: $progBarContainer;
     transform          : rotate(90deg);
     
     .progress-bar {
-        width     : 50px;
-        height: 1px;
+        width     : 5%;
+        height: 100%;
         position: relative;
-        top: -1px;
-        border-top: 1px solid $progressBar;
-
+        top: 0;
+        background-color: $progressBar;
+        opacity: 1;
+        transition: width ease-out;
     }
 }

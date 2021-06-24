@@ -1,4 +1,4 @@
-import React, { Suspense } from 'react';
+import React, { Suspense, useEffect, useState } from 'react';
 
 import {
   BrowserRouter as Router,
@@ -17,12 +17,31 @@ const About = React.lazy(() => import('./About'));
 const Contact = React.lazy(() => import('./Contact'));
 
 function App() {
+  // Scroll bar
+  const [scroll, setScroll] = useState(0);
+
+  useEffect(() => {
+
+    let progressBarHandler = () => {
+
+      const totalScroll = document.documentElement.scrollTop;
+      const windowHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+      const scroll = `${totalScroll / windowHeight}`;
+
+      setScroll(scroll);
+    }
+
+    window.addEventListener("scroll", progressBarHandler);
+
+    return () => window.removeEventListener("scroll", progressBarHandler);
+  });
+
   return (
     <Suspense fallback={<p>Loading...</p>}>
       <Router>
         <Header />
         <HeaderNav />
-        <ProgressBar />
+        <ProgressBar scroll={scroll} />
         <Switch>
           <Route path="/about">
             <About />
