@@ -1,9 +1,9 @@
 import React, { Suspense, useEffect, useState } from 'react';
 
 import {
-  BrowserRouter as Router,
   Switch,
-  Route
+  Route,
+  useLocation
 } from "react-router-dom";
 
 import '../../assets/scss/main.scss';
@@ -17,6 +17,8 @@ const About = React.lazy(() => import('./About'));
 const Contact = React.lazy(() => import('./Contact'));
 
 function App() {
+  const location = useLocation();
+
   // Scroll bar
   const [scroll, setScroll] = useState(0);
 
@@ -38,33 +40,39 @@ function App() {
 
   return (
     <Suspense fallback={<p>Loading...</p>}>
-      <Router>
-        <Header />
-        <HeaderNav />
-        <ProgressBar scroll={scroll} />
-        <Switch>
-          <Route path="/" exact>
-            <Hero />
-          </Route>
+      {location.pathname === '/game' ? '' : (
+        <>
+          <Header />
+          <HeaderNav />
+          <ProgressBar scroll={scroll} />
+        </>
+      )}
+      <Switch>
+        <Route path="/" exact>
+          <Hero />
+        </Route>
 
-          <Route path="/about">
-            <About />
-          </Route>
+        <Route path="/about">
+          <About />
+        </Route>
 
-          <Route path="/contact">
-            <Contact />
-          </Route>
+        <Route path="/contact">
+          <Contact />
+        </Route>
 
-          <Route path="/">
-          </Route>
+        <Route path="/">
+        </Route>
 
-          <Route path="/game">
-            
-          </Route>
+        <Route path="/game">
 
-        </Switch>
-        <Footer />
-      </Router>
+        </Route>
+
+      </Switch>
+      {location.pathname === '/game' ? '' : (
+        <>
+          <Footer />
+        </>
+      )}
     </Suspense>
   );
 }
