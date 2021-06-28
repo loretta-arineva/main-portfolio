@@ -146,15 +146,15 @@ Adding animations
 
 ### Next steps:
 - [x] ~~Adding a contact form.~~
-- [X] Adding About me content.
-- [X] Adding a progress bar functionality.
+- [x] Adding About me content.
+- [x] Adding a progress bar functionality.
 - [ ] Adding entrance and exit component animations.
 - [ ] Adding item entrance animations.
 - [ ] Adding another theme color to the entire website.
 - [ ] Improving on-site and technical SEO.
-  - [X] Adding lazy loading.
-  - [X] Improving GT Metrix stats.
-  - [X] Configuring metas for social meadia.
+  - [x] Adding lazy loading.
+  - [x] Improving GT Metrix stats.
+  - [x] Configuring metas for social meadia.
 - [ ] Implementing a better git flow method for updating content and developing a game.
 - [ ] Adding an arcade game.
 - [ ] Refactoring code.
