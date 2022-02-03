@@ -10,21 +10,21 @@
   <p align="center">
      Loreta Krasteva's personal portfolio. Built with React, Redux Toolkit, React Router and SASS (Still in development)
     <br />
-    <a href="https://github.com/loretta-arineva/main-portfolio#readme"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/lucky-lore/main-portfolio#readme"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://loretta-arineva.dev/">View Live</a>
     ·
-    <a href="https://github.com/loretta-arineva/main-portfolio/issues">Report Bug</a>
+    <a href="https://github.com/lucky-lore/main-portfolio/issues">Report Bug</a>
     ·
-    <a href="https://github.com/loretta-arineva/main-portfolio/issues">Request Feature</a>
+    <a href="https://github.com/lucky-lore/main-portfolio/issues">Request Feature</a>
   </p>
 </p>
 
-<a href="https://github.com/loretta-arineva" target="_blank">
+<a href="https://github.com/lucky-lore" target="_blank">
 <img src=https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white alt=github style="margin-bottom: 5px;" />
 </a>
-<a href="https://linkedin.com/in/loretta-arineva" target="_blank">
+<a href="https://linkedin.com/in/loretta-krasteva" target="_blank">
 <img src=https://img.shields.io/badge/linkedin-%231E77B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white alt=linkedin style="margin-bottom: 5px;" />
 </a>  
   
