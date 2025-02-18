@@ -12,9 +12,9 @@ const FooterContact = () => {
             <div className="social">
                 <p>Want to be my friend?</p>
                 <div className="social-icons">
-                    <a href="https://www.linkedin.com/in/loretta-arineva" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon></a>
+                    <a href="https://www.linkedin.com/in/loretta-krasteva" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon></a>
                     <a href="https://discord.com/users/Kasai%20Senshi#9784/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faDiscord}></FontAwesomeIcon></a>
-                    <a href="https://github.com/loretta-arineva" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faGithub}></FontAwesomeIcon></a>
+                    <a href="https://github.com/loretta-krasteva" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faGithub}></FontAwesomeIcon></a>
                 </div>
             </div>
         </div>
