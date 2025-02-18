@@ -8,7 +8,7 @@
   <h1 align="center">Personal Portfolio</h1>
 
   <p align="center">
-     Loreta Krasteva's personal portfolio. Built with React, Redux Toolkit, React Router and SASS (Still in development)
+     Loretta Krasteva's personal portfolio. Built with React, Redux Toolkit, React Router and SASS (Still in development)
     <br />
     <a href="https://github.com/lucky-lore/main-portfolio#readme"><strong>Explore the docs »</strong></a>
     <br />
@@ -167,9 +167,9 @@ Adding animations
 
 N/A - Coming soon
 
-See live: [Portfolio](https://loretta-arineva.dev/)
+See live: [Portfolio](https://loretta-krasteva.com/)
 
-Project Link: [https://github.com/loretta-arineva/main-portfolio](https://github.com/loretta-arineva/main-portfolio)
+Project Link: [https://github.com/sudo-ditto/main-portfolio](https://github.com/sudo-ditto/main-portfolio)
 
 
 
@@ -196,16 +196,16 @@ I have spent a total of 35 hours building this project.
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Loreta Krasteva: Front-End Web Developer
+Loretta Krasteva: Front-End Web Developer
 
-_For more examples, please refer to the [Documentation](https://github.com/loretta-arineva/planets-fact)_
+_For more examples, please refer to the [Documentation](https://github.com/sudo-ditto/planets-fact)_
 
 
 
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/loretta-arineva/main-portfolio/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/sudo-ditto/main-portfolio/issues) for a list of proposed features (and known issues).
 
 
 <!-- CONTRIBUTING -->
@@ -228,7 +228,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 ## Contact
 
 ### Author
-> Loreta Krasteva
+> Loretta Krasteva
 
 <a href="https://github.com/lucky-lore" target="_blank">
 <img src=https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white alt=github style="margin-bottom: 5px;" />
