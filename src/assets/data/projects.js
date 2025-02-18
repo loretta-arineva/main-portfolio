@@ -5,7 +5,7 @@ export const projectData = [
         title: "Planets Fact",
         type: "Front-End",
         stack: "React, JavaScript, SCSS",
-        github: "https://github.com/loretta-arineva/planets-fact",
+        github: "https://github.com/sudo-ditto/planets-fact",
         live: "https://planets-fact-react.netlify.app/"
     },
     {
@@ -14,7 +14,7 @@ export const projectData = [
         title: "Where in the world",
         type: "Front-End",
         stack: "React, Redux Toolkit, JavaScript, API, SCSS",
-        github: "https://github.com/loretta-arineva/rest-countries-api",
+        github: "https://github.com/sudo-ditto/rest-countries-api",
         live: "https://rest-countries-api-react-redux.netlify.app/"
     },
     {
@@ -23,7 +23,7 @@ export const projectData = [
         title: "Audiophile e-commerce",
         type: "Front-End",
         stack: "React, Redux Toolkit, JavaScript, SCSS",
-        github: "https://github.com/loretta-arineva/audiophile-ecommerce",
+        github: "https://github.com/sudo-ditto/audiophile-ecommerce",
         live: "https://audiophile-ecommerce.netlify.app/"
     },
     {
@@ -32,7 +32,7 @@ export const projectData = [
         title: "Forkify",
         type: "Front-End",
         stack: "JavaScript, API, CSS, HTML",
-        github: "https://github.com/loretta-arineva/Forkify",
+        github: "https://github.com/sudo-ditto/Forkify",
         live: "https://forkify-web-app.netlify.app/#5ed6604591c37cdc054bcd45"
     },
     {
@@ -41,8 +41,8 @@ export const projectData = [
         title: "Guess The Number",
         type: "Front-End",
         stack: "JavaScript, HTML, CSS",
-        github: "https://github.com/loretta-arineva/guess-the-number",
-        live: "https://loretta-arineva.github.io/guess-the-number/"
+        github: "https://github.com/sudo-ditto/guess-the-number",
+        live: "https://sudo-ditto.github.io/guess-the-number/"
     },
     {
         img: "/images/projects/figaro.png",
@@ -50,8 +50,8 @@ export const projectData = [
         title: "Figaro",
         type: "Front-End",
         stack: "JavaScript, HTML, CSS",
-        github: "https://github.com/loretta-arineva/Figaro",
-        live: "https://loretta-arineva.github.io/Figaro/"
+        github: "https://github.com/sudo-ditto/Figaro",
+        live: "https://sudo-ditto.github.io/Figaro/"
     },
     {
         img: "/images/projects/pig-game.png",
@@ -59,7 +59,7 @@ export const projectData = [
         title: "Pig Game",
         type: "Front-End",
         stack: "JavaScript, HTML, CSS, MVC",
-        github: "https://github.com/loretta-arineva/pig-game",
+        github: "https://github.com/sudo-ditto/pig-game",
         live: "https://dice-pig-game-mvc.netlify.app/"
     },
     {
@@ -68,7 +68,7 @@ export const projectData = [
         title: "Old Portfolio v2",
         type: "Front-End",
         stack: "JavaScript, HTML, CSS",
-        github: "https://github.com/loretta-arineva/portfolio-v2",
+        github: "https://github.com/sudo-ditto/portfolio-v2",
         live: "https://loreta-krasteva-portfolio.netlify.app/"
     },
     {
@@ -77,7 +77,7 @@ export const projectData = [
         title: "Wolf Hunt",
         type: "Front-End",
         stack: "JavaScript, HTML, CSS",
-        github: "https://github.com/loretta-arineva/wolf-hunt",
-        live: "https://loretta-arineva.github.io/wolf-hunt/"
+        github: "https://github.com/sudo-ditto/wolf-hunt",
+        live: "https://sudo-ditto.github.io/wolf-hunt/"
     },
 ];
